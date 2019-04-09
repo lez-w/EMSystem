@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+
+
+<AnchorPane prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: #2f2b43;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="450.0" prefWidth="168.0" style="-fx-background-color: #393351;">
+         <children>
+            <VBox layoutY="176.0" prefHeight="274.0" prefWidth="168.0">
+               <children>
+                  <JFXButton prefHeight="67.0" prefWidth="237.0" style="-fx-background-color: #393351; -fx-background-radius: 30 0 0 30;" textFill="#fff8f8" />
+                  <JFXButton layoutX="10.0" layoutY="10.0" prefHeight="65.0" prefWidth="240.0" style="-fx-background-color: #393351; -fx-background-radius: 30 0 0 30;" textFill="#fff8f8" />
+                  <JFXButton layoutX="10.0" layoutY="77.0" prefHeight="67.0" prefWidth="237.0" style="-fx-background-color: #393351; -fx-background-radius: 30 0 0 30;" textFill="#fff8f8" />
+                  <JFXButton layoutX="10.0" layoutY="144.0" prefHeight="67.0" prefWidth="237.0" style="-fx-background-color: #393351; -fx-background-radius: 30 0 0 30;" textFill="#fff8f8" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <Pane layoutX="193.0" layoutY="-172.0" prefHeight="305.0" prefWidth="494.0" rotate="41.6" style="-fx-background-color: #fa2c56; -fx-background-radius: 70;" />
+      <FontAwesomeIconView />
+      <JFXButton layoutX="197.0" layoutY="37.0" prefHeight="168.0" prefWidth="168.0" style="-fx-background-color: #fff; -fx-background-radius: 30;" text=" " />
+      <JFXButton layoutX="577.0" layoutY="248.0" prefHeight="168.0" prefWidth="168.0" style="-fx-background-color: #fff; -fx-background-radius: 30;" text=" ">
+         <graphic>
+            <Circle fill="DODGERBLUE" radius="53.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: linear-gradient(to bottom right, #EECE13, #B210FF);">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Circle>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="207.0" layoutY="248.0" prefHeight="168.0" prefWidth="168.0" style="-fx-background-color: #fff; -fx-background-radius: 30;" text=" ">
+         <graphic>
+            <Circle fill="DODGERBLUE" radius="53.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: linear-gradient(to bottom right, #EECE13, #B210FF);">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Circle>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="577.0" layoutY="47.0" prefHeight="168.0" prefWidth="158.0" style="-fx-background-color: #fff; -fx-background-radius: 30;" text=" ">
+         <graphic>
+            <Circle fill="DODGERBLUE" radius="53.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: linear-gradient(to bottom right, #EECE13, #B210FF);">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Circle>
+         </graphic>
+      </JFXButton>
+      <ImageView fitHeight="95.0" fitWidth="144.0" layoutX="175.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true" />
+      <Pane layoutX="225.0" layoutY="68.0" prefHeight="106.0" prefWidth="112.0" style="-fx-background-radius: 50; -fx-background-color: linear-gradient(to bottom right, #EECE13, #B210FF);" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="180.0" style="-fx-background-color: #f0f7ff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <FontAwesomeIconView glyphName="BUYSELLADS" layoutX="26.0" layoutY="67.0" size="30" />
+      <FontAwesomeIconView glyphName="GEARS" layoutX="21.0" layoutY="134.0" size="30" wrappingWidth="38.14285659790039" />
+      <FontAwesomeIconView glyphName="LIST" layoutX="21.0" layoutY="193.0" size="30" wrappingWidth="38.14285537600517" />
+      <FontAwesomeIconView glyphName="USER" layoutX="25.0" layoutY="245.0" size="30" wrappingWidth="38.14285537600517" />
+      <FontAwesomeIconView glyphName="MAIL_REPLY_ALL" layoutX="19.0" layoutY="304.0" size="30" wrappingWidth="38.142854914069176" />
+      <JFXButton accessibleText="btn_1" layoutX="-3.0" layoutY="34.0" prefHeight="41.0" prefWidth="180.0" text="传感器" />
+      <JFXButton accessibleText="btn_2" layoutX="-3.0" layoutY="103.0" prefHeight="41.0" prefWidth="180.0" text="设置" />
+      <JFXButton accessibleText="btn_3" layoutX="-3.0" layoutY="160.0" prefHeight="41.0" prefWidth="180.0" text="监控" />
+      <JFXButton accessibleText="btn_4" layoutX="-3.0" layoutY="214.0" prefHeight="41.0" prefWidth="180.0" text="用户" />
+      <JFXButton accessibleText="btn_5" layoutY="272.0" prefHeight="41.0" prefWidth="180.0" text="退出" />
+   </children>
+   <effect>
+      <DropShadow />
+   </effect>
+</AnchorPane>

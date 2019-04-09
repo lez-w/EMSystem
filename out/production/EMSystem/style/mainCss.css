@@ -1,0 +1,52 @@
+.panel{
+    -fx-background-color: #635e8d;
+}
+.panelStrip{
+    -fx-background-color:  #4B4B4B;
+}
+.panelReversal{
+    -fx-background-color:  #fa2c56;
+    -fx-background-radius: 70;
+}
+.panelCircle1{
+    -fx-background-radius: 60;
+    -fx-background-color:  linear-gradient(to bottom right, #1022cf, #6cbcfb, #ffffff);
+}
+.panelCircle2{
+    -fx-background-radius: 60;
+    -fx-background-color: linear-gradient(to bottom right, #1cb436, #82ed6c, #ffffff);
+}
+.panelCircle3{
+    -fx-background-radius: 60;
+    -fx-background-color:  linear-gradient(to bottom right, #ee1572, #ed9996, #ffffff);
+}
+.panelCircle4{
+    -fx-background-radius: 60;
+    -fx-background-color:  linear-gradient(to bottom right, #fe610c, #f9b66f, #ffffff);
+}
+.panelCircle5{
+    -fx-background-radius: 60;
+    -fx-background-color:  linear-gradient(to bottom right, #602993, #d77df4, #ffffff);
+}
+.panelCircle6{
+    -fx-background-radius: 60;
+    -fx-background-color:  linear-gradient(to bottom right, #226393, #6dd5fa, #ffffff);
+}
+.button{
+    -fx-background-color:  #393351;
+    -fx-background-radius: 30;
+}
+.button_close{
+    -fx-background-color: #4B4B4B;
+    -fx-border: none;
+    -fx-color: white;
+    -fx-opacity: 0.6;
+    -fx-transition: 0.3s;
+    -fx-display: inline-block;
+    -fx-background-radius: 0;
+}
+.button_close:hover{
+    -fx-background-color: #ff7471;
+    -fx-opacity: 1;
+}
+

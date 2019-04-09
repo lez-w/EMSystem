@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+   <children>
+      <MediaView fx:id="mediaView" fitHeight="450.0" fitWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane layoutX="464.0" layoutY="45.0" prefHeight="378.0" prefWidth="295.0" style="-fx-background-color: #ffffff67; -fx-background-radius: 50px;" AnchorPane.bottomAnchor="27.0" AnchorPane.rightAnchor="26.0" AnchorPane.topAnchor="45.0">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <JFXTextField fx:id="uName" focusColor="#3101f2" labelFloat="true" layoutX="64.0" layoutY="121.0" promptText="用户名" unFocusColor="#423e3eed">
+               <opaqueInsets>
+                  <Insets left="10.0" top="10.0" />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField fx:id="uPwd" focusColor="#3e00fbf7" labelFloat="true" layoutX="64.0" layoutY="200.0" promptText="密码" unFocusColor="#363131f0">
+               <opaqueInsets>
+                  <Insets left="10.0" top="10.0" />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </JFXPasswordField>
+            <JFXButton fx:id="loginBtn" layoutX="64.0" layoutY="289.0" onAction="#loginAction" prefHeight="36.0" prefWidth="197.0" style="-fx-background-color: #ff6666; -fx-background-radius: 50px;" text="登陆" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="registerBtn" layoutX="64.0" layoutY="340.0" onAction="#registerAction" prefHeight="36.0" prefWidth="197.0" style="-fx-background-radius: 50px;" text="还没有账号？注册一个" textFill="WHITE" />
+            <FontAwesomeIconView fill="#514545c9" glyphName="USER" layoutX="23.0" layoutY="152.0" size="36" />
+            <FontAwesomeIconView fill="#514545c2" glyphName="LOCK" layoutX="23.0" layoutY="233.0" size="42" />
+            <FontAwesomeIconView fill="#f8f5f5" glyphName="KRW" layoutX="135.0" layoutY="75.0" size="40" />
+            <Label layoutX="124.0" layoutY="26.0" prefHeight="62.0" prefWidth="63.0" style="-fx-border-color: #FFF; -fx-border-radius: 60PX; -fx-border-width: 2PX;">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Label>
+            <JFXCheckBox checkedColor="#5e22f5" layoutX="64.0" layoutY="259.0" text="记住密码" unCheckedColor="#e82828" />
+         </children>
+      </Pane>
+      <StackPane fx:id="dialogPane" layoutX="225.0" layoutY="91.0" prefHeight="175.0" prefWidth="350.0" AnchorPane.bottomAnchor="184.0" AnchorPane.leftAnchor="225.0" AnchorPane.rightAnchor="225.0" AnchorPane.topAnchor="91.0" />
+      <AnchorPane prefHeight="38.0" prefWidth="800.0" styleClass="panelStrip" stylesheets="@../resource/style/mainCss.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="btn_close" layoutX="755.0" layoutY="-1.0" mnemonicParsing="false" onAction="#btnClose" prefHeight="38.0" prefWidth="43.0" styleClass="button_close" stylesheets="@../resource/style/mainCss.css">
+               <graphic>
+                  <MaterialDesignIconView glyphName="CLOSE" size="25">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </MaterialDesignIconView>
+               </graphic>
+            </Button>
+            <Button fx:id="btn_min" layoutX="710.0" layoutY="-1.0" mnemonicParsing="false" onAction="#btnMin" prefHeight="38.0" prefWidth="43.0" styleClass="button_close" stylesheets="@../resource/style/mainCss.css">
+               <graphic>
+                  <MaterialDesignIconView glyphName="WINDOW_MINIMIZE" size="25">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </MaterialDesignIconView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
