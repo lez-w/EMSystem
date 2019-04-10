@@ -18,7 +18,7 @@
       <AnchorPane fx:id="pane1" layoutY="37.0" prefHeight="413.0" prefWidth="800.0" styleClass="panel" stylesheets="@../resource/style/mainCss.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="37.0">
          <children>
             <Pane layoutX="110.0" layoutY="-160.0" prefHeight="244.0" prefWidth="494.0" rotate="20.0" styleClass="panelReversal" stylesheets="@../resource/style/mainCss.css" />
-            <JFXButton layoutX="161.0" layoutY="18.0" opacity="0.7" prefHeight="168.0" prefWidth="168.0" stylesheets="@../resource/style/mainCss.css" text=" ">
+            <JFXButton layoutX="68.0" layoutY="20.0" opacity="0.7" prefHeight="168.0" prefWidth="168.0" stylesheets="@../resource/style/mainCss.css" text=" ">
                <graphic>
                   <Pane prefHeight="100.0" prefWidth="100.0" styleClass="panelCircle1" stylesheets="@../resource/style/mainCss.css">
                      <effect>
@@ -33,7 +33,7 @@
                   <DropShadow />
                </effect>
             </JFXButton>
-            <JFXButton layoutX="379.0" layoutY="20.0" opacity="0.7" prefHeight="168.0" prefWidth="168.0" stylesheets="@../resource/style/mainCss.css" text=" ">
+            <JFXButton layoutX="316.0" layoutY="20.0" opacity="0.7" prefHeight="168.0" prefWidth="168.0" stylesheets="@../resource/style/mainCss.css" text=" ">
                <graphic>
                   <Pane prefHeight="100.0" prefWidth="100.0" styleClass="panelCircle2" stylesheets="@../resource/style/mainCss.css">
                      <effect>
@@ -45,7 +45,7 @@
                   </Pane>
                </graphic>
             </JFXButton>
-            <JFXButton layoutX="590.0" layoutY="21.0" opacity="0.7" prefHeight="168.0" prefWidth="168.0" stylesheets="@../resource/style/mainCss.css" text=" ">
+            <JFXButton layoutX="569.0" layoutY="20.0" opacity="0.7" prefHeight="168.0" prefWidth="168.0" stylesheets="@../resource/style/mainCss.css" text=" ">
                <graphic>
                   <Pane prefHeight="100.0" prefWidth="100.0" styleClass="panelCircle3" stylesheets="@../resource/style/mainCss.css">
                      <effect>
@@ -57,7 +57,7 @@
                   </Pane>
                </graphic>
             </JFXButton>
-            <JFXButton layoutX="161.0" layoutY="222.0" opacity="0.7" prefHeight="168.0" prefWidth="168.0" stylesheets="@../resource/style/mainCss.css" text=" ">
+            <JFXButton layoutX="69.0" layoutY="222.0" opacity="0.7" prefHeight="168.0" prefWidth="168.0" stylesheets="@../resource/style/mainCss.css" text=" ">
                <graphic>
                   <Pane prefHeight="100.0" prefWidth="100.0" styleClass="panelCircle4" stylesheets="@../resource/style/mainCss.css">
                      <effect>
@@ -69,7 +69,7 @@
                   </Pane>
                </graphic>
             </JFXButton>
-            <JFXButton layoutX="379.0" layoutY="222.0" opacity="0.7" prefHeight="168.0" prefWidth="168.0" stylesheets="@../resource/style/mainCss.css" text=" ">
+            <JFXButton layoutX="317.0" layoutY="222.0" opacity="0.7" prefHeight="168.0" prefWidth="168.0" stylesheets="@../resource/style/mainCss.css" text=" ">
                <graphic>
                   <Pane prefHeight="100.0" prefWidth="100.0" styleClass="panelCircle5" stylesheets="@../resource/style/mainCss.css">
                      <effect>
@@ -81,7 +81,7 @@
                   </Pane>
                </graphic>
             </JFXButton>
-            <JFXButton layoutX="590.0" layoutY="222.0" opacity="0.7" prefHeight="168.0" prefWidth="168.0" stylesheets="@../resource/style/mainCss.css" text=" ">
+            <JFXButton layoutX="570.0" layoutY="222.0" opacity="0.7" prefHeight="168.0" prefWidth="168.0" stylesheets="@../resource/style/mainCss.css" text=" ">
                <graphic>
                   <Pane prefHeight="100.0" prefWidth="100.0" styleClass="panelCircle6" stylesheets="@../resource/style/mainCss.css">
                      <effect>
@@ -93,32 +93,32 @@
                   </Pane>
                </graphic>
             </JFXButton>
-            <Label layoutX="224.0" layoutY="155.0" prefHeight="24.0" prefWidth="43.0" text="监控" textFill="#fff9f9">
+            <Label layoutX="131.0" layoutY="157.0" prefHeight="24.0" prefWidth="43.0" text="监控" textFill="#fff9f9">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
             </Label>
-            <Label layoutX="442.0" layoutY="155.0" prefHeight="24.0" prefWidth="43.0" text="告警" textFill="#f8f8f8">
+            <Label layoutX="379.0" layoutY="155.0" prefHeight="24.0" prefWidth="43.0" text="告警" textFill="#f8f8f8">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
             </Label>
-            <Label layoutX="653.0" layoutY="155.0" prefHeight="24.0" prefWidth="43.0" text="定位" textFill="WHITE">
+            <Label layoutX="632.0" layoutY="155.0" prefHeight="24.0" prefWidth="43.0" text="定位" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
             </Label>
-            <Label layoutX="224.0" layoutY="359.0" prefHeight="24.0" prefWidth="43.0" text="实时" textFill="#f8f6f6">
+            <Label layoutX="131.0" layoutY="359.0" prefHeight="24.0" prefWidth="43.0" text="实时" textFill="#f8f6f6">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
             </Label>
-            <Label layoutX="442.0" layoutY="359.0" prefHeight="24.0" prefWidth="43.0" text="灵敏" textFill="#f2f2f2">
+            <Label layoutX="379.0" layoutY="359.0" prefHeight="24.0" prefWidth="43.0" text="灵敏" textFill="#f2f2f2">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
             </Label>
-            <Label layoutX="653.0" layoutY="359.0" prefHeight="24.0" prefWidth="43.0" text="定制" textFill="#fcfafa">
+            <Label layoutX="632.0" layoutY="359.0" prefHeight="24.0" prefWidth="43.0" text="定制" textFill="#fcfafa">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>

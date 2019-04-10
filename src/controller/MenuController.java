@@ -10,9 +10,11 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.geometry.Insets;
 import javafx.scene.Node;
-import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.*;
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.Background;
+import javafx.scene.layout.BackgroundFill;
+import javafx.scene.layout.CornerRadii;
 import javafx.scene.paint.Paint;
 
 import java.io.IOException;
@@ -42,7 +44,13 @@ public class MenuController implements Initializable {
                         switch (btn.getAccessibleText()){
                             case "btn_1":anchorPane.setBackground(new Background(new BackgroundFill(Paint.valueOf("#000000"),CornerRadii.EMPTY, Insets.EMPTY)));
                             break;
-                            case "btn_2":anchorPane.setBackground(new Background(new BackgroundFill(Paint.valueOf("#FFFFFF"),CornerRadii.EMPTY, Insets.EMPTY)));
+                            case "btn_2":AnchorPane map = null;
+                                try {
+                                    map = FXMLLoader.load(getClass().getResource("../view/Map.fxml"));
+                                } catch (IOException e) {
+                                    e.printStackTrace();
+                                }
+                                pane1.getChildren().setAll(map);;
                             break;
                             case "btn_3":
                                 AnchorPane b = null;
